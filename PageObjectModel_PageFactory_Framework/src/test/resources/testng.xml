@@ -1,0 +1,56 @@
+<suite name="SuiteName">
+	<test name="LaunchPage Test" allow-return-values="true">
+		<classes>
+			<class name="com.abcassignment.pom.testcases.LaunchPageTest" />
+		</classes>
+	</test>
+	
+	<test name="LandingPage Test" allow-return-values="true">
+		<classes>
+			<class name="com.abcassignment.pom.testcases.LandingPageTest" />
+		</classes>
+	</test>	
+	
+	<test name="JustInPage Test" allow-return-values="true">
+		<classes>
+			<class name="com.abcassignment.pom.testcases.JustInPageTest" />
+		</classes>
+	</test>	
+	
+	<test name="VideoPage Test" allow-return-values="true">
+		<classes>
+			<class name="com.abcassignment.pom.testcases.VideoPageTest" />
+		</classes>
+	</test>
+	
+	<test name="ImagePage Test" allow-return-values="true">
+		<classes>
+			<class name="com.abcassignment.pom.testcases.ImagePageTest" />
+		</classes>
+	</test>
+		<test name="NavigationPage Test" allow-return-values="true">
+		<classes>
+			<class name="com.abcassignment.pom.testcases.NavigationPageTest" />
+		</classes>
+	</test>
+	
+		
+		<test name="ShareIcon Test" allow-return-values="true">
+		<classes>
+			<class name="com.abcassignment.pom.testcases.ShareIconTest" />
+		</classes>
+	   </test>
+	   
+	   	<test name="ListenRadio Test" allow-return-values="true">
+		<classes>
+			<class name="com.abcassignment.pom.testcases.ListenRadioTest" />
+		</classes>
+	   </test>
+	   
+	   	<test name="DownloadAudio Test" allow-return-values="true">
+		<classes>
+			<class name="com.abcassignment.pom.testcases.DownloadAudioTest" />
+		</classes>
+	   </test>
+</suite>
+

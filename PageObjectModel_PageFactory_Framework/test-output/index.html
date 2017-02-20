@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-SuiteName">
+              <span class="suite-name border-passed">SuiteName</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-SuiteName">
+                    <span>D:\workspace\PageObjectModel_PageFactory_Framework\src\test\resources\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-SuiteName">
+                    <span class="test-stats">9 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-SuiteName">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-SuiteName">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-SuiteName">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-SuiteName">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-SuiteName">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SuiteName" class="hide-methods passed suite-SuiteName"> (hide)</a> <!-- hide-methods passed suite-SuiteName -->
+                      <a href="#" panel-name="suite-SuiteName" class="show-methods passed suite-SuiteName"> (show)</a> <!-- show-methods passed suite-SuiteName -->
+                    </span>
+                    <div class="method-list-content passed suite-SuiteName">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="com.abcassignment.pom.testcases.DownloadAudioTest" hash-for-method="testDownloadAudioRadio">testDownloadAudioRadio</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="com.abcassignment.pom.testcases.ImagePageTest" hash-for-method="testImagePage">testImagePage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="com.abcassignment.pom.testcases.JustInPageTest" hash-for-method="testJustInPage">testJustInPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="com.abcassignment.pom.testcases.LandingPageTest" hash-for-method="testLandingPage">testLandingPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="com.abcassignment.pom.testcases.LaunchPageTest" hash-for-method="testLaunchPage">testLaunchPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="com.abcassignment.pom.testcases.ListenRadioTest" hash-for-method="testListenRadio">testListenRadio</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="com.abcassignment.pom.testcases.NavigationPageTest" hash-for-method="testNavigationPage">testNavigationPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="com.abcassignment.pom.testcases.ShareIconTest" hash-for-method="testShareIcon">testShareIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-SuiteName" title="com.abcassignment.pom.testcases.VideoPageTest" hash-for-method="testVideoPage">testVideoPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SuiteName -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SuiteName" class="panel SuiteName">
+          <div class="suite-SuiteName-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.abcassignment.pom.testcases.LandingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLandingPage">
+                  </a> <!-- testLandingPage -->
+                  <span class="method-name">testLandingPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteName-class-passed -->
+          <div class="suite-SuiteName-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.abcassignment.pom.testcases.ImagePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testImagePage">
+                  </a> <!-- testImagePage -->
+                  <span class="method-name">testImagePage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteName-class-passed -->
+          <div class="suite-SuiteName-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.abcassignment.pom.testcases.DownloadAudioTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDownloadAudioRadio">
+                  </a> <!-- testDownloadAudioRadio -->
+                  <span class="method-name">testDownloadAudioRadio</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteName-class-passed -->
+          <div class="suite-SuiteName-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.abcassignment.pom.testcases.JustInPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testJustInPage">
+                  </a> <!-- testJustInPage -->
+                  <span class="method-name">testJustInPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteName-class-passed -->
+          <div class="suite-SuiteName-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.abcassignment.pom.testcases.LaunchPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLaunchPage">
+                  </a> <!-- testLaunchPage -->
+                  <span class="method-name">testLaunchPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteName-class-passed -->
+          <div class="suite-SuiteName-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.abcassignment.pom.testcases.NavigationPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationPage">
+                  </a> <!-- testNavigationPage -->
+                  <span class="method-name">testNavigationPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteName-class-passed -->
+          <div class="suite-SuiteName-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.abcassignment.pom.testcases.ShareIconTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testShareIcon">
+                  </a> <!-- testShareIcon -->
+                  <span class="method-name">testShareIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteName-class-passed -->
+          <div class="suite-SuiteName-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.abcassignment.pom.testcases.VideoPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testVideoPage">
+                  </a> <!-- testVideoPage -->
+                  <span class="method-name">testVideoPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteName-class-passed -->
+          <div class="suite-SuiteName-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.abcassignment.pom.testcases.ListenRadioTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testListenRadio">
+                  </a> <!-- testListenRadio -->
+                  <span class="method-name">testListenRadio</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SuiteName-class-passed -->
+        </div> <!-- panel SuiteName -->
+        <div panel-name="test-xml-SuiteName" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\workspace\PageObjectModel_PageFactory_Framework\src\test\resources\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SuiteName&quot;&gt;
+  &lt;test name=&quot;LaunchPage Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.abcassignment.pom.testcases.LaunchPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LaunchPage Test --&gt;
+  &lt;test name=&quot;LandingPage Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.abcassignment.pom.testcases.LandingPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LandingPage Test --&gt;
+  &lt;test name=&quot;JustInPage Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.abcassignment.pom.testcases.JustInPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- JustInPage Test --&gt;
+  &lt;test name=&quot;VideoPage Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.abcassignment.pom.testcases.VideoPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- VideoPage Test --&gt;
+  &lt;test name=&quot;ImagePage Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.abcassignment.pom.testcases.ImagePageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ImagePage Test --&gt;
+  &lt;test name=&quot;NavigationPage Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.abcassignment.pom.testcases.NavigationPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- NavigationPage Test --&gt;
+  &lt;test name=&quot;ShareIcon Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.abcassignment.pom.testcases.ShareIconTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ShareIcon Test --&gt;
+  &lt;test name=&quot;ListenRadio Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.abcassignment.pom.testcases.ListenRadioTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ListenRadio Test --&gt;
+  &lt;test name=&quot;DownloadAudio Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.abcassignment.pom.testcases.DownloadAudioTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DownloadAudio Test --&gt;
+&lt;/suite&gt; &lt;!-- SuiteName --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SuiteName" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SuiteName</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">LaunchPage Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LandingPage Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">JustInPage Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">VideoPage Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ImagePage Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">NavigationPage Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ShareIcon Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ListenRadio Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DownloadAudio Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SuiteName" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SuiteName</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SuiteName" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SuiteName</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SuiteName');
+function tableData_SuiteName() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testNavigationPage')
+data.setCell(0, 2, 'com.abcassignment.pom.testcases.NavigationPageTest')
+data.setCell(0, 3, 36953);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testShareIcon')
+data.setCell(1, 2, 'com.abcassignment.pom.testcases.ShareIconTest')
+data.setCell(1, 3, 29872);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testListenRadio')
+data.setCell(2, 2, 'com.abcassignment.pom.testcases.ListenRadioTest')
+data.setCell(2, 3, 27958);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testDownloadAudioRadio')
+data.setCell(3, 2, 'com.abcassignment.pom.testcases.DownloadAudioTest')
+data.setCell(3, 3, 24743);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testVideoPage')
+data.setCell(4, 2, 'com.abcassignment.pom.testcases.VideoPageTest')
+data.setCell(4, 3, 13473);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testImagePage')
+data.setCell(5, 2, 'com.abcassignment.pom.testcases.ImagePageTest')
+data.setCell(5, 3, 12894);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testLandingPage')
+data.setCell(6, 2, 'com.abcassignment.pom.testcases.LandingPageTest')
+data.setCell(6, 3, 9979);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testJustInPage')
+data.setCell(7, 2, 'com.abcassignment.pom.testcases.JustInPageTest')
+data.setCell(7, 3, 8949);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testLaunchPage')
+data.setCell(8, 2, 'com.abcassignment.pom.testcases.LaunchPageTest')
+data.setCell(8, 3, 4991);
+window.suiteTableData['SuiteName']= { tableData: data, tableDiv: 'times-div-SuiteName'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-SuiteName">
+              </div> <!-- times-div-SuiteName -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SuiteName" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SuiteName</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SuiteName" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SuiteName" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.abcassignment.pom.testcases.LaunchPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLaunchPage</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">4991 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.abcassignment.pom.testcases.LandingPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testLandingPage</span>
+                <span class="method-start">6732 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">16712 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.abcassignment.pom.testcases.JustInPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testJustInPage</span>
+                <span class="method-start">17611 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">26560 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.abcassignment.pom.testcases.VideoPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testVideoPage</span>
+                <span class="method-start">27470 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">40944 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.abcassignment.pom.testcases.ImagePageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testImagePage</span>
+                <span class="method-start">41938 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">54833 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.abcassignment.pom.testcases.NavigationPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testNavigationPage</span>
+                <span class="method-start">55785 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">92754 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.abcassignment.pom.testcases.ShareIconTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testShareIcon</span>
+                <span class="method-start">93678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">123550 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.abcassignment.pom.testcases.ListenRadioTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testListenRadio</span>
+                <span class="method-start">124483 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">152442 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.abcassignment.pom.testcases.DownloadAudioTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testDownloadAudioRadio</span>
+                <span class="method-start">153594 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quit</span>
+                <span class="method-start">178338 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

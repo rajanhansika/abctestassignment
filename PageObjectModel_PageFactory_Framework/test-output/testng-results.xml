@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteName" duration-ms="179203" started-at="2017-02-20T05:28:57Z" finished-at="2017-02-20T05:31:56Z">
+    <groups>
+    </groups>
+    <test name="LaunchPage Test" duration-ms="6648" started-at="2017-02-20T05:28:57Z" finished-at="2017-02-20T05:29:03Z">
+      <class name="com.abcassignment.pom.testcases.LaunchPageTest">
+        <test-method status="PASS" signature="testLaunchPage()[pri:0, instance:com.abcassignment.pom.testcases.LaunchPageTest@436e852b]" name="testLaunchPage" duration-ms="4991" started-at="2017-02-20T16:28:57Z" finished-at="2017-02-20T16:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLaunchPage -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.abcassignment.pom.testcases.LaunchPageTest@436e852b]" name="quit" is-config="true" duration-ms="1657" started-at="2017-02-20T16:29:02Z" finished-at="2017-02-20T16:29:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.abcassignment.pom.testcases.LaunchPageTest -->
+    </test> <!-- LaunchPage Test -->
+    <test name="LandingPage Test" duration-ms="10866" started-at="2017-02-20T05:29:04Z" finished-at="2017-02-20T05:29:14Z">
+      <class name="com.abcassignment.pom.testcases.LandingPageTest">
+        <test-method status="PASS" signature="testLandingPage()[pri:0, instance:com.abcassignment.pom.testcases.LandingPageTest@50d0686]" name="testLandingPage" duration-ms="9979" started-at="2017-02-20T16:29:04Z" finished-at="2017-02-20T16:29:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLandingPage -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.abcassignment.pom.testcases.LandingPageTest@50d0686]" name="quit" is-config="true" duration-ms="883" started-at="2017-02-20T16:29:14Z" finished-at="2017-02-20T16:29:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.abcassignment.pom.testcases.LandingPageTest -->
+    </test> <!-- LandingPage Test -->
+    <test name="JustInPage Test" duration-ms="9859" started-at="2017-02-20T05:29:14Z" finished-at="2017-02-20T05:29:24Z">
+      <class name="com.abcassignment.pom.testcases.JustInPageTest">
+        <test-method status="PASS" signature="testJustInPage()[pri:0, instance:com.abcassignment.pom.testcases.JustInPageTest@3aeaafa6]" name="testJustInPage" duration-ms="8949" started-at="2017-02-20T16:29:14Z" finished-at="2017-02-20T16:29:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testJustInPage -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.abcassignment.pom.testcases.JustInPageTest@3aeaafa6]" name="quit" is-config="true" duration-ms="910" started-at="2017-02-20T16:29:23Z" finished-at="2017-02-20T16:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.abcassignment.pom.testcases.JustInPageTest -->
+    </test> <!-- JustInPage Test -->
+    <test name="VideoPage Test" duration-ms="14390" started-at="2017-02-20T05:29:24Z" finished-at="2017-02-20T05:29:39Z">
+      <class name="com.abcassignment.pom.testcases.VideoPageTest">
+        <test-method status="PASS" signature="testVideoPage()[pri:0, instance:com.abcassignment.pom.testcases.VideoPageTest@612fc6eb]" name="testVideoPage" duration-ms="13473" started-at="2017-02-20T16:29:24Z" finished-at="2017-02-20T16:29:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVideoPage -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.abcassignment.pom.testcases.VideoPageTest@612fc6eb]" name="quit" is-config="true" duration-ms="916" started-at="2017-02-20T16:29:38Z" finished-at="2017-02-20T16:29:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.abcassignment.pom.testcases.VideoPageTest -->
+    </test> <!-- VideoPage Test -->
+    <test name="ImagePage Test" duration-ms="13784" started-at="2017-02-20T05:29:39Z" finished-at="2017-02-20T05:29:53Z">
+      <class name="com.abcassignment.pom.testcases.ImagePageTest">
+        <test-method status="PASS" signature="testImagePage()[pri:0, instance:com.abcassignment.pom.testcases.ImagePageTest@6a1aab78]" name="testImagePage" duration-ms="12894" started-at="2017-02-20T16:29:39Z" finished-at="2017-02-20T16:29:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testImagePage -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.abcassignment.pom.testcases.ImagePageTest@6a1aab78]" name="quit" is-config="true" duration-ms="889" started-at="2017-02-20T16:29:52Z" finished-at="2017-02-20T16:29:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.abcassignment.pom.testcases.ImagePageTest -->
+    </test> <!-- ImagePage Test -->
+    <test name="NavigationPage Test" duration-ms="37862" started-at="2017-02-20T05:29:53Z" finished-at="2017-02-20T05:30:30Z">
+      <class name="com.abcassignment.pom.testcases.NavigationPageTest">
+        <test-method status="PASS" signature="testNavigationPage()[pri:0, instance:com.abcassignment.pom.testcases.NavigationPageTest@4671e53b]" name="testNavigationPage" duration-ms="36953" started-at="2017-02-20T16:29:53Z" finished-at="2017-02-20T16:30:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationPage -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.abcassignment.pom.testcases.NavigationPageTest@4671e53b]" name="quit" is-config="true" duration-ms="893" started-at="2017-02-20T16:30:30Z" finished-at="2017-02-20T16:30:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.abcassignment.pom.testcases.NavigationPageTest -->
+    </test> <!-- NavigationPage Test -->
+    <test name="ShareIcon Test" duration-ms="30774" started-at="2017-02-20T05:30:31Z" finished-at="2017-02-20T05:31:01Z">
+      <class name="com.abcassignment.pom.testcases.ShareIconTest">
+        <test-method status="PASS" signature="testShareIcon()[pri:0, instance:com.abcassignment.pom.testcases.ShareIconTest@3ecd23d9]" name="testShareIcon" duration-ms="29872" started-at="2017-02-20T16:30:31Z" finished-at="2017-02-20T16:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShareIcon -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.abcassignment.pom.testcases.ShareIconTest@3ecd23d9]" name="quit" is-config="true" duration-ms="902" started-at="2017-02-20T16:31:00Z" finished-at="2017-02-20T16:31:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.abcassignment.pom.testcases.ShareIconTest -->
+    </test> <!-- ShareIcon Test -->
+    <test name="ListenRadio Test" duration-ms="29111" started-at="2017-02-20T05:31:01Z" finished-at="2017-02-20T05:31:30Z">
+      <class name="com.abcassignment.pom.testcases.ListenRadioTest">
+        <test-method status="PASS" signature="testListenRadio()[pri:0, instance:com.abcassignment.pom.testcases.ListenRadioTest@74a10858]" name="testListenRadio" duration-ms="27958" started-at="2017-02-20T16:31:01Z" finished-at="2017-02-20T16:31:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testListenRadio -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.abcassignment.pom.testcases.ListenRadioTest@74a10858]" name="quit" is-config="true" duration-ms="1152" started-at="2017-02-20T16:31:29Z" finished-at="2017-02-20T16:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.abcassignment.pom.testcases.ListenRadioTest -->
+    </test> <!-- ListenRadio Test -->
+    <test name="DownloadAudio Test" duration-ms="25609" started-at="2017-02-20T05:31:30Z" finished-at="2017-02-20T05:31:56Z">
+      <class name="com.abcassignment.pom.testcases.DownloadAudioTest">
+        <test-method status="PASS" signature="testDownloadAudioRadio()[pri:0, instance:com.abcassignment.pom.testcases.DownloadAudioTest@51c8530f]" name="testDownloadAudioRadio" duration-ms="24743" started-at="2017-02-20T16:31:30Z" finished-at="2017-02-20T16:31:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownloadAudioRadio -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.abcassignment.pom.testcases.DownloadAudioTest@51c8530f]" name="quit" is-config="true" duration-ms="865" started-at="2017-02-20T16:31:55Z" finished-at="2017-02-20T16:31:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.abcassignment.pom.testcases.DownloadAudioTest -->
+    </test> <!-- DownloadAudio Test -->
+  </suite> <!-- SuiteName -->
+</testng-results>

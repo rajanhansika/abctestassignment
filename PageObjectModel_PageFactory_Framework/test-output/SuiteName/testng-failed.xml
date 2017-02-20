@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteName]">
+  <test name="JustInPage Test(failed)">
+    <classes>
+      <class name="com.abcassignment.pom.testcases.LandingPageTest">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.abcassignment.pom.testcases.LandingPageTest -->
+      <class name="com.abcassignment.pom.testcases.JustInPageTest">
+        <methods>
+          <include name="testLandingPage"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.abcassignment.pom.testcases.JustInPageTest -->
+      <class name="com.abcassignment.pom.testcases.LaunchPageTest">
+        <methods>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.abcassignment.pom.testcases.LaunchPageTest -->
+    </classes>
+  </test> <!-- JustInPage Test(failed) -->
+</suite> <!-- Failed suite [SuiteName] -->
