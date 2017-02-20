@@ -3,7 +3,7 @@ package com.abcassignment.pom.base;
 import java.io.File;
 import java.util.Date;
 
-import junit.framework.Assert;
+//import junit.framework.Assert;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
@@ -71,7 +71,9 @@ public class BasePage {
 			e = driver.findElement(By.xpath(locatorKey));
 		else{
 			
-			Assert.fail("Locator not correct - " + locatorKey);
+			//Assert.fail("Locator not correct - " + locatorKey);
+			test.log(LogStatus.FAIL, "Locator not correct - " + locatorKey);
+			
 		}
 		
 		}catch(Exception ex){
